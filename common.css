@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+.container{
+    padding: 15px;
+}
+.container img{
+    width: 400px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: linear-gradient(rgba(238, 226, 226, 0.705),rgba(201, 223, 201, 0.719));
+}
+ol{
+    margin-left: auto;
+    display: flex;
+}
+ol li{
+    list-style-type: none;
+    margin-right: 100px;
+    text-align: center;
+    padding-top:25px;
+}
+.container ol li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}

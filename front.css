@@ -1,0 +1,182 @@
+.container2{
+    padding-top: 15%;
+    justify-items: center;
+    color: white;
+}
+.container2 h1{
+    font-size: 71px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px;
+}
+.sub_container2{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 25px;
+    height:max-content;
+}
+.container2 .a1_cont2{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.sub_container2 .a2_cont2 img{
+    height:55px;
+    padding-top: 7px;
+}
+.content{
+    width:100vw;
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background : linear-gradient(rgba(194, 172, 172, 0.226),rgba(214, 170, 218, 0.062)),
+    url(./assets/images/app-link-background.svg)  center/cover no-repeat;
+}
+/*--------------content2-------------------*/
+.content2{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 6%;
+    margin: 0px;
+}
+.content2 h1{
+    text-align: center;
+    padding-bottom: 3%;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.subcontent21{
+    display: flex;
+    padding-right: 20px;
+    margin: 0px;
+}
+.subcontent21 img{
+    width: 195px;
+    height: 250px;
+    margin: 0px;
+ 
+}
+.subcontent21 figcaption{
+    padding: 15px;
+    text-align: center;
+}
+/*--------------content3------------8*/
+.content3,.content4{
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.content3{
+    background: url(./assets/images/banner-1.webp) no-repeat top/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content3 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120px;
+    color: white;
+}
+.content4 h1{
+    font-size: 100px;
+    font-style: Calibri;
+}
+.content4{
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background: url(./assets/images/banner-2.webp) center/cover no-repeat;
+    color: white;
+} 
+.content4 a{
+    color: white;
+    margin: auto;
+    width: 300px;
+    font-size: 50px;
+    font-weight: 100;
+    text-decoration: none;
+    border: 0.5px solid rgb(231, 220, 220);
+    border-radius: 50px;
+}  
+/*------------content4--------------*/
+.h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 15px;
+}
+.content5{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontent51,.subcontent52,.subcontent53{
+    margin: 0px;
+    width: 100vw;
+    padding: 30px;
+}
+.content5 h1{
+    text-align: center;
+    font-size: 25px;
+}
+.content5 figure{
+    display: flex;
+    justify-content: left;
+    font-size: 22px;
+}
+.content5 figcaption{
+    padding-left: 20px;
+}
+.subcontent52 ul li a{
+    text-decoration: none;
+    color: red;
+    font-size: 22px;
+    padding: 10px;
+}
+.subcontent53 p{
+    font-size: 22px;
+}
+.subcontent53 input{
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    border: 0.5 solid rgba(214, 204, 204, 0.021);
+}
+.subcontent53 input::placeholder{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+/*-------------content6-----------------*/
+.content6{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 10px;
+}
+.content6 h1{
+    text-align: center;
+}
+.subcontent61,.subcontent62,.subcontent63{
+    width:400px;
+    padding: 5px;
+}
+.subcontent63 img{
+    padding-left: 30px;
+}
+.content7{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    padding: 30px;
+    column-gap: 30px;
+}
+.content7 img{
+    width: 50px;
+    height: 50px;
+}
